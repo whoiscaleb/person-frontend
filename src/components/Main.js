@@ -9,7 +9,7 @@ const Main = (props) => {
 
     // const URL = "http://localhost:4000/people/"
 
-    const URL = "https://person-app-pyvm.onrender.com/people"
+    const URL = "https://person-app-pyvm.onrender.com/people/"
   
     const getPeople = async () => {
         const response = await fetch(URL)
