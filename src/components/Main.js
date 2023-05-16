@@ -35,6 +35,7 @@ const Main = (props) => {
           },
           body: JSON.stringify(person),
         });
+
         // update list of people
         getPeople();
       }
@@ -48,7 +49,7 @@ const Main = (props) => {
         getPeople();
       }
 
-    useEffect(() => getPeople, [])
+    useEffect(() => getPeople(), [])
 
   return (
     <main>
